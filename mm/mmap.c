@@ -2262,7 +2262,7 @@ int expand_downwards(struct vm_area_struct *vma,
 int expand_stack(struct vm_area_struct *vma, unsigned long address)
 {
 	struct vm_area_struct *next;
-
+    printk("Expanding stack");
 	address &= PAGE_MASK;
 	next = vma->vm_next;
 	if (next && next->vm_start == address + PAGE_SIZE) {
@@ -2291,7 +2291,7 @@ find_extend_vma(struct mm_struct *mm, unsigned long addr)
 int expand_stack(struct vm_area_struct *vma, unsigned long address)
 {
 	struct vm_area_struct *prev;
-
+    printk("Expanding stack");
 	address &= PAGE_MASK;
 	prev = vma->vm_prev;
 	if (prev && prev->vm_end == address) {
