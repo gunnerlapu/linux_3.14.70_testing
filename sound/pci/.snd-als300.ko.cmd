@@ -1,0 +1,1 @@
+cmd_sound/pci/snd-als300.ko := ld -r -m elf_x86_64 -T /home/gunner/Documents/linux-3.14.70/scripts/module-common.lds --build-id  -o sound/pci/snd-als300.ko sound/pci/snd-als300.o sound/pci/snd-als300.mod.o

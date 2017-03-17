@@ -1,0 +1,1 @@
+cmd_sound/drivers/snd-virmidi.ko := ld -r -m elf_x86_64 -T /home/gunner/Documents/linux-3.14.70/scripts/module-common.lds --build-id  -o sound/drivers/snd-virmidi.ko sound/drivers/snd-virmidi.o sound/drivers/snd-virmidi.mod.o

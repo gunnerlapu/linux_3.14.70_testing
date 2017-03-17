@@ -1,0 +1,1 @@
+cmd_drivers/gpio/built-in.o :=  ld -m elf_x86_64   -r -o drivers/gpio/built-in.o drivers/gpio/devres.o drivers/gpio/gpiolib.o drivers/gpio/gpiolib-acpi.o drivers/gpio/gpio-lynxpoint.o drivers/gpio/gpio-rc5t583.o drivers/gpio/gpio-stmpe.o drivers/gpio/gpio-sx150x.o drivers/gpio/gpio-tc3589x.o drivers/gpio/gpio-tps6586x.o drivers/gpio/gpio-tps65910.o 

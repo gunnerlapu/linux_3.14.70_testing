@@ -1,0 +1,1 @@
+cmd_drivers/rapidio/switches/built-in.o :=  ld -m elf_x86_64   -r -o drivers/rapidio/switches/built-in.o drivers/rapidio/switches/tsi57x.o drivers/rapidio/switches/idtcps.o drivers/rapidio/switches/tsi568.o drivers/rapidio/switches/idt_gen2.o 

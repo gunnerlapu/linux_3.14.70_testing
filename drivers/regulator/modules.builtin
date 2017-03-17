@@ -1,0 +1,5 @@
+kernel/drivers/regulator/88pm8607.ko
+kernel/drivers/regulator/lp872x.ko
+kernel/drivers/regulator/lp8788-buck.ko
+kernel/drivers/regulator/lp8788-ldo.ko
+kernel/drivers/regulator/twl-regulator.ko

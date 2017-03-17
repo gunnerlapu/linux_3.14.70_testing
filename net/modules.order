@@ -1,0 +1,9 @@
+kernel/net/802/p8022.ko
+kernel/net/802/psnap.ko
+kernel/net/802/stp.ko
+kernel/net/ieee802154/6lowpan_iphc.ko
+kernel/net/llc/llc.ko
+kernel/net/bridge/bridge.ko
+kernel/net/bluetooth/bluetooth.ko
+kernel/net/bluetooth/rfcomm/rfcomm.ko
+kernel/net/bluetooth/bnep/bnep.ko

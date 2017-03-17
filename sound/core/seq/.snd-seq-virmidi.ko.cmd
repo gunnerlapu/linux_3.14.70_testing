@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-virmidi.ko := ld -r -m elf_x86_64 -T /home/gunner/Documents/linux-3.14.70/scripts/module-common.lds --build-id  -o sound/core/seq/snd-seq-virmidi.ko sound/core/seq/snd-seq-virmidi.o sound/core/seq/snd-seq-virmidi.mod.o
